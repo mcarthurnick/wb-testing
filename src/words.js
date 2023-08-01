@@ -1,5 +1,9 @@
 import lodash from 'lodash';
 
+export function getWord() {
+  return lodash.sample(COMMON);
+}
+
 const COMMON = [
   'CIGAR',
   'REBUT',
